@@ -1,0 +1,26 @@
+{
+  "name": "threejs-example",
+  "description": "learn three and webgl",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.16",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "gl-matrix": "^3.4.3",
+    "nuxt": "^3.13.0",
+    "three": "^0.168.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/three": "^0.168.0",
+    "sass": "^1.78.0"
+  }
+}
